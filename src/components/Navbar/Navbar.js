@@ -11,6 +11,7 @@ import NavIcon from "../../img/headshot-logo-blue.png";
 
 export const StyledHeader = styled.header`
   background: ${({ lightBg }) => (lightBg ? "#f2f2f2" : "#000113")};
+  box-shadow: 0px 0px 20px -10px black;
   position: sticky;
   width: 100%;
   top: 0;
@@ -22,8 +23,8 @@ export const StyledNav = styled.nav`
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: .2.5rem;
+  padding-bottom: .2.5rem;
   color: ${({ lightBg }) => (lightBg ? "#000113" : "#fff")};
 `;
 
@@ -100,7 +101,7 @@ export const NavLinks = styled(Link)`
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  height: 100%;
+  // height: 100%;
   transition: all 0.3s ease;
 
   &:hover {
@@ -269,7 +270,7 @@ const Navbar = ({ lightBg }) => {
         <Container>
           <StyledNav lightBg={lightBg}>
             <NavLogo to="/" onClick={handleClose}>
-              <img src={NavIcon} alt="" width="70px" />
+              <img src={NavIcon} alt="" width="50px" />
             </NavLogo>
             <HamburgerIcon onClick={handleClick}>
               {" "}
