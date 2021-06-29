@@ -35,13 +35,13 @@ export const TextWrapper = styled.div`
   }
 `;
 
-// export const TopLine = styled.div`
-//   color: ${({ lightBg }) => (lightBg ? "#000113" : "#a9b3c1")};
-//   font-size: 18px;
-//   line-height: 1rem;
-//   letter-spacing: 1.4px;
-//   margin-bottom: 1rem;
-// `;
+export const TopLine = styled.div`
+  color: ${({ lightBg }) => (lightBg ? "#000113" : "#a9b3c1")};
+  font-size: 28px;
+  line-height: 1rem;
+  letter-spacing: 1.4px;
+  margin-bottom: 1rem;
+`;
 
 export const Heading = styled.h1`
   margin-bottom: 24px;

@@ -6,7 +6,7 @@ export const LandingPageContentObj = {
   imgStart: "",
   primary: true,
   buttonLabel: "Get Started",
-  tagLine: "I am Chukwudalu Ayika",
+  tagLine: "Chukwudalu Ayika",
   headline: "Front-end Developer",
   description:
     "I design and code beautifully simple web interfaces and applications with accessibility in mind, and I love what I do.",

@@ -40,7 +40,7 @@ const InfoSection = ({
             <InfoColumn>
               <TextWrapper>
                 {/* tagLine is a short section description */}
-                {/* <TopLine lightBg={lightBg}>{tagLine}</TopLine> */}
+                 <TopLine lightBg={lightBg}>{tagLine}</TopLine>
                 <Heading lightBg={lightBg}>{headline}</Heading>
                 <Subtitle lightBg={lightBg}>{description}</Subtitle>
               </TextWrapper>
